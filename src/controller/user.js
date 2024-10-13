@@ -7,5 +7,4 @@ class UserController {
     ctx.body = '登录成功'
   }
 }
-export default new UserController();
-// export const userController = new UserController()
+module.exports = new UserController();

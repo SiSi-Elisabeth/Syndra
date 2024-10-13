@@ -1,9 +1,9 @@
-import Router from '@koa/router';
-import user from './controller/user.js';
+const Router = require('@koa/router');
+const user = require('@/controller/user');
 
 const router = new Router();
 
 // 用户相关
 router.post('/wxlogin',user.wxLogin);
 
-export default router;
+module.exports = router;

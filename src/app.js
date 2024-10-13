@@ -1,8 +1,13 @@
-import Koa from 'koa';
-import json from 'koa-json'; // 将 http 响应的数据转化为json格式
-import bodyParser from 'koa-bodyparser'; // 解析 http 请求的消息体
-import cors from '@koa/cors'; //跨域
-import router from  './router.js';
+const Koa = require('koa');
+const json = require('koa-json'); // 将 http 响应的数据转化为json格式
+const bodyParser = require('koa-bodyparser'); // 解析 http 请求的消息体
+const cors = require('@koa/cors'); //跨域
+const  { addAlias } = require('module-alias'); // 这里使用的单数别名
+addAlias('@', __dirname); // 注意单数和复数使用方法的区别，去npm查看
+const router = require('@/router');
+
+
+
 
 const app = new Koa();
 
