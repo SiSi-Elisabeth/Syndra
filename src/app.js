@@ -5,15 +5,15 @@ const cors = require('@koa/cors'); //跨域
 const  { addAlias } = require('module-alias'); // 这里使用的单数别名
 addAlias('@', __dirname); // 注意单数和复数使用方法的区别，去npm查看
 const router = require('@/router');
-
-
-
+// 统一接口响应数据格式：中间件
+const responseHandler = require('@/config/result');
 
 const app = new Koa();
 
 app.use(json());
 app.use(bodyParser());
 app.use(cors());
+app.use(responseHandler);
 app.use(router.routes()).use(router.allowedMethods());
 
 app.listen(3001, ()=>{
