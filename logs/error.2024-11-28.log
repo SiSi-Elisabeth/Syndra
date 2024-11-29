@@ -1,0 +1,19 @@
+[2024-11-28T15:03:23.045] [ERROR] error - 错误, SequelizeDatabaseError: Data truncated for column 'id' at row 1
+[2024-11-28T15:04:06.459] [ERROR] error - 错误, SequelizeDatabaseError: Data truncated for column 'id' at row 1
+[2024-11-28T16:02:38.418] [ERROR] error - 错误, SequelizeDatabaseError: Data truncated for column 'id' at row 1
+[2024-11-28T16:02:58.034] [ERROR] error - 错误, SequelizeDatabaseError: Table 'syndra_dev.user' doesn't exist
+[2024-11-28T16:03:17.589] [ERROR] error - 错误, SequelizeDatabaseError: Table 'syndra_dev.user' doesn't exist
+[2024-11-28T16:03:18.716] [ERROR] error - 错误, SequelizeDatabaseError: Table 'syndra_dev.user' doesn't exist
+[2024-11-28T16:03:19.735] [ERROR] error - 错误, SequelizeDatabaseError: Table 'syndra_dev.user' doesn't exist
+[2024-11-28T16:03:20.769] [ERROR] error - 错误, SequelizeDatabaseError: Table 'syndra_dev.user' doesn't exist
+[2024-11-28T16:09:24.851] [ERROR] error - 错误, SequelizeDatabaseError: Field 'id' doesn't have a default value
+[2024-11-28T16:09:42.861] [ERROR] error - 错误, SequelizeDatabaseError: Table 'syndra_dev.user' doesn't exist
+[2024-11-28T16:09:44.040] [ERROR] error - 错误, SequelizeDatabaseError: Table 'syndra_dev.user' doesn't exist
+[2024-11-28T16:09:44.988] [ERROR] error - 错误, SequelizeDatabaseError: Table 'syndra_dev.user' doesn't exist
+[2024-11-28T16:10:03.883] [ERROR] error - 错误, SequelizeDatabaseError: Table 'syndra_dev.user' doesn't exist
+[2024-11-28T16:10:04.940] [ERROR] error - 错误, SequelizeDatabaseError: Table 'syndra_dev.user' doesn't exist
+[2024-11-28T16:10:13.315] [ERROR] error - 错误, SequelizeDatabaseError: Table 'syndra_dev.user' doesn't exist
+[2024-11-28T16:10:34.468] [ERROR] error - 错误, SequelizeDatabaseError: Table 'syndra_dev.user' doesn't exist
+[2024-11-28T16:10:35.666] [ERROR] error - 错误, SequelizeDatabaseError: Table 'syndra_dev.user' doesn't exist
+[2024-11-28T16:10:36.687] [ERROR] error - 错误, SequelizeDatabaseError: Table 'syndra_dev.user' doesn't exist
+[2024-11-28T16:10:37.696] [ERROR] error - 错误, SequelizeDatabaseError: Table 'syndra_dev.user' doesn't exist

@@ -1,0 +1,29 @@
+{
+  "name": "syndra",
+  "version": "1.0.0",
+  "description": "Koa搭建node项目",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "@koa/router": "^13.1.0",
+    "axios": "^1.7.8",
+    "dayjs": "^1.11.13",
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1",
+    "koa-json": "^2.0.2",
+    "log4js": "^6.9.1",
+    "module-alias": "^2.2.3",
+    "mysql2": "^3.11.4",
+    "sequelize": "^6.37.5",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

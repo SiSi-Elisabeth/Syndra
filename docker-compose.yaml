@@ -1,0 +1,15 @@
+name: Syndra
+
+services:
+  mysql:
+    container_name: syndra_mysql
+    image: mysql:8.4.0
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+      - MYSQL_DATABASE=syndra_dev
+      - MYSQL_LOWER_CASE_TABLE_NAMES=0
+    ports:
+      - '3307:3306'
+    volumes:
+      - /Users/zhangmengmeng/Documents/mysql-data/syndra_mysql:/var/lib/mysql

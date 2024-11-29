@@ -1,0 +1,1 @@
+[2024-11-29T17:06:52.867] [ERROR] error - 错误, AxiosError: Unknown adapter 'https://api.weixin.qq.com/sns/jscode2session?appid=wx7d5dc184bcae09d0&secret=565f92f91c41991e0af14f269ca4ec53&js_code=0c1bIRGa12smCI0yhrGa1oOqkz0bIRGX&grant_type=authorization_code'
