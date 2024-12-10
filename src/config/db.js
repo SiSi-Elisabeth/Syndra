@@ -10,7 +10,7 @@ const db = new Sequelize({
   host: '127.0.0.1',
   port: 3307, 
   define: {
-    freezeTableName: true, // 禁止给表名自动添加复数
+    freezeTableName: true, // 禁止给表名自动添加复数，否则表名自动默认为复数
     timestamps: false, // 全局设置，禁止表自动添加更新时间和创建时间
   },
   sync: {
@@ -22,10 +22,10 @@ db.sync(); // 如果表不存在，就创建表（如果已经存在，不需要
 // 验证连接
 // db.authenticate()
 // .then(() => {
-//     console.log('Connection has been established successfully.');
+//    console.log('Connection has been established successfully.');
 // })
 // .catch(err => {
-//     console.error('Unable to connect to the database:', err);
+//    console.error('Unable to connect to the database:', err);
 // });
 
 module.exports = db;
