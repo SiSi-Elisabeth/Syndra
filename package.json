@@ -22,7 +22,8 @@
     "module-alias": "^2.2.3",
     "mysql2": "^3.11.4",
     "sequelize": "^6.37.5",
-    "uuid": "^11.0.3"
+    "uuid": "^11.0.3",
+    "zhipuai-sdk-nodejs-v4": "^0.1.12"
   },
   "devDependencies": {
     "dotenv": "^16.4.5",

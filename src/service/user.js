@@ -1,4 +1,4 @@
-const {appid, secret, code2session} = require('@/config/default');
+const {appid, secret, code2session} = require('@/config/default').weixin;
 const qs = require('querystring');
 const axios = require('axios').default;
 class UserService {
